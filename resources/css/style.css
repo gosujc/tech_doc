@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    min-width: 290px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #659DBD;
+  }
+  
+  /*****************/
+  /***Nav-Bar
+  /*****************/
+  
+  #navbar {
+    min-width: 290px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #000;
+  }
+  
+  #navbar header {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+  }
+  
+  #navbar li {
+    position: relative;
+    border-top: 1px solid;
+    list-style: none;
+    text-align: left;
+    padding: 0 0 12px 18px;
+    width: 100%;
+  }
+  
+  /*****************/
+  /***Main
+  /*****************/
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+  }
+  
+  #main-doc header {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  
+  /*****************/
+  /***Articles
+  /*****************/
+  
+  section article {
+    margin: 15px 0 20px 40px;
+  }
+  
+  section p {
+    margin: 15px 0;
+  }
+  
+  section li {
+    margin: 25px 0 10px 40px;
+  }
+  
+  code {
+    display: block;
+    text-align: left;
+    word-break: normal;
+    white-space: pre;
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
